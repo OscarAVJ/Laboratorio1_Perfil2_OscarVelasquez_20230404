@@ -6,6 +6,8 @@ public class Student {
     }
 
     private String name;
+    private int age;
+    private double average;
 
     public String getName() {
         return name;
@@ -30,8 +32,5 @@ public class Student {
     public void setAverage(double average) {
         this.average = average;
     }
-
-    private int age;
-    private double average;
 
 }
